@@ -42,6 +42,7 @@ const (
 	ComponentPropertyLocation     = ComponentProperty(PropertyLocation) // TEXT
 	ComponentPropertyStatus       = ComponentProperty(PropertyStatus)   // TEXT
 	ComponentPropertyFreebusy     = ComponentProperty(PropertyFreebusy)
+	ComponentPropertyAllDayEvent  = ComponentProperty(PropertyAllDayEvent)
 	ComponentPropertyLastModified = ComponentProperty(PropertyLastModified)
 	ComponentPropertyUrl          = ComponentProperty(PropertyUrl)
 	ComponentPropertyGeo          = ComponentProperty(PropertyGeo)
@@ -84,6 +85,7 @@ const (
 	PropertyDtstart         Property = "DTSTART"
 	PropertyDuration        Property = "DURATION"
 	PropertyFreebusy        Property = "X-MICROSOFT-CDO-BUSYSTATUS"
+	PropertyAllDayEvent     Property = "X-MICROSOFT-CDO-ALLDAYEVENT"
 	PropertyTransp          Property = "TRANSP" // TEXT
 	PropertyTzid            Property = "TZID"   // TEXT
 	PropertyTzname          Property = "TZNAME" // TEXT
